@@ -373,3 +373,9 @@ body.dark-mode .nav-left .nav-brand {
   text-align: center;
   color: #666;
 }
+
+body.dark-mode .reminder-text,
+body.dark-mode .section-heading,
+body.dark-mode .reminder-date {
+  color: #000 !important;
+}
