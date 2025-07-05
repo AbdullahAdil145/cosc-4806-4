@@ -4,7 +4,6 @@
   <h2 class="section-heading">Reminders</h2>
 
   <form method="POST" action="/reminders/create" class="add-reminder-form">
-    <input type="hidden" name="user_id" value="1">
     <input type="text" name="subject" placeholder="New reminder subject" required class="reminder-input">
     <button type="submit" class="add-reminder-button">Add New Reminder</button>
   </form>

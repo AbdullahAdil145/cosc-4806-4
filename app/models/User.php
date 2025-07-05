@@ -56,6 +56,7 @@ class User {
 
             $_SESSION['auth'] = 1;
             $_SESSION['username'] = ucwords($username);
+            $_SESSION['user_id'] = $rows['id'];
             unset($_SESSION['failedAuth']);
             unset($_SESSION['lockout']);
             header('Location: /home');
