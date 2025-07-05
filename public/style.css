@@ -272,3 +272,104 @@ body.dark-mode .nav-left .nav-brand {
   border-radius: 6px;
   text-decoration: none;
 }
+
+.reminders-section {
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: #f9f9f9;
+  border-radius: 10px;
+}
+
+.section-heading {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.add-reminder-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.reminder-input {
+  flex: 1;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.add-reminder-button {
+  padding: 8px 15px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-reminder-button:hover {
+  background-color: #45a049;
+}
+
+.reminders-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reminder-card {
+  background: white;
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.reminder-text {
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.reminder-date {
+  font-size: 0.9em;
+  color: #888;
+  margin-bottom: 10px;
+}
+
+.inline-form {
+  display: inline;
+}
+
+.reminder-button {
+  padding: 5px 10px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.reminder-button.complete {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.reminder-button.update {
+  background-color: #2196F3;
+  color: white;
+}
+
+.reminder-button.delete {
+  background-color: #f44336;
+  color: white;
+}
+
+.reminder-button:hover {
+  opacity: 0.9;
+}
+
+.no-reminders {
+  text-align: center;
+  color: #666;
+}
