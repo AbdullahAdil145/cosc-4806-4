@@ -13,7 +13,6 @@ define('CONTROLLERS', ROOT . DS . 'controllers');
 define('LOGS', ROOT . DS . 'logs');	
 define('FILES', ROOT . DS. 'files');
 
-// ---------------------  NEW DATABASE TABLE -------------------------
 define('DB_HOST',       '8ijr5.h.filess.io');
 define('DB_USER',       'cosc4806_blackthan');
 define('DB_PASS',       $_ENV['DB_PASS']);

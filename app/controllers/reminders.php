@@ -5,8 +5,6 @@ class Reminders extends Controller {
     public function index() {
         $reminder = $this->model('Reminder');
         $list_of_reminders = $reminder->get_all_reminders();
-
-        // ✅ Pass as 'reminders' to the view so the view has $reminders available
         $this->view('reminders/index', ['reminder' => $list_of_reminders]);
     }
 

@@ -2,7 +2,7 @@
 
 <div class="container text-center" style="margin-top: 2rem;">
     <div style="background: #fff; padding: 2rem; border-radius: 12px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); display: inline-block;">
-        <h1>Hey, <?= $_SESSION['username'] ?? '' ?> 👋</h1>
+        <h1>Hey 👋, <?= $_SESSION['username'] ?? '' ?></h1>
         <p><?= date('F jS, Y') ?></p>
     </div>
 </div>

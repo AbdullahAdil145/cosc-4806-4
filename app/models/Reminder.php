@@ -31,7 +31,7 @@ class Reminder {
         return $statement->execute([$id]);
     }
 
-    // Complete reminder is just a delete
+    // Complete reminder is the same as delete
     public function complete_reminder($id) {
         return $this->delete_reminder($id);
     }
