@@ -262,3 +262,13 @@ body.dark-mode nav a,
 body.dark-mode .nav-left .nav-brand {
   color: #000 !important;
 }
+
+.add-reminder-button {
+  display: block;
+  margin: 0 auto;
+  padding: 0 auto 0 auto;
+  background-color: #007bff;
+  color: white;
+  border-radius: 6px;
+  text-decoration: none;
+}
