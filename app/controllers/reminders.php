@@ -3,7 +3,7 @@
 class Reminders extends Controller {
     public function index() {
         $reminder = $this->model('Reminder');
-        $data = get_all_reminders->test();
+        $reminders = $reminder->get_all_reminders();
         $this->view('reminders/index');
     }
 }
